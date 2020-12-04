@@ -8,6 +8,6 @@ public class App {
 		ApplicationContext context = new ClassPathXmlApplicationContext("SpringConfig.xml");
 		Coach coach = (Coach) context.getBean("ballcoach");
 		coach.display();
-		Sysyem.out.println("Hey you have executed spring annotation");
+		System.out.println("Hey you have executed spring annotation");
 	}
 }
